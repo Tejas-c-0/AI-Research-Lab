@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">Colour-coded AI research pipeline</title><desc id="desc">Isometric stages show data, preprocessing, model training, evaluation, and prediction.</desc>
+<defs>
+ <linearGradient id="b" x2="1" y2="1"><stop stop-color="#081322"/><stop offset="1" stop-color="#182344"/></linearGradient>
+ <linearGradient id="c1" x2="1" y2="1"><stop stop-color="#9bf4ff"/><stop offset="1" stop-color="#1185b5"/></linearGradient>
+ <linearGradient id="c2" x2="1" y2="1"><stop stop-color="#aaf7d8"/><stop offset="1" stop-color="#168b73"/></linearGradient>
+ <linearGradient id="c3" x2="1" y2="1"><stop stop-color="#e0c8ff"/><stop offset="1" stop-color="#7551d4"/></linearGradient>
+ <linearGradient id="c4" x2="1" y2="1"><stop stop-color="#ffe3a0"/><stop offset="1" stop-color="#c57b24"/></linearGradient>
+ <linearGradient id="c5" x2="1" y2="1"><stop stop-color="#ffb8be"/><stop offset="1" stop-color="#c64d76"/></linearGradient>
+ <filter id="s"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1200" height="620" rx="28" fill="url(#b)"/>
+<g opacity=".12" stroke="#9ab0d9"><path d="M0 450L600 100L1200 450M0 520L600 170L1200 520M0 590L600 240L1200 590"/><path d="M100 0L700 620M300 0L900 620M500 0L1100 620"/></g>
+<text x="600" y="65" text-anchor="middle" font-family="Arial" font-size="28" fill="#f4f7ff" font-weight="700" letter-spacing="2">FROM RAW DATA TO A TRUSTED PREDICTION</text>
+<g opacity=".26" filter="url(#s)"><ellipse cx="600" cy="395" rx="490" ry="90" fill="#36b9d9"/></g>
+<!-- connector path -->
+<path d="M185 330L390 330L600 330L810 330L1020 330" stroke="#94a7c9" stroke-width="4" stroke-dasharray="9 12" fill="none"/>
+<!-- each isometric platform -->
+<g font-family="Arial" text-anchor="middle">
+ <g transform="translate(185 285)"><path d="M-92 35L0-18L92 35L0 88Z" fill="#123e5b" stroke="#54d8f0" stroke-width="2"/><path d="M-92 35V92L0 145V88Z" fill="#0b2b46" stroke="#54d8f0"/><path d="M92 35V92L0 145V88Z" fill="#155b7a" stroke="#54d8f0"/>
+ <g transform="translate(0 5)"><path d="M-52-16L0-46L52-16L0 14Z" fill="url(#c1)"/><path d="M-52-16V15L0 45V14Z" fill="#14789a"/><path d="M52-16V15L0 45V14Z" fill="#28b5cf"/></g><text y="184" fill="#9defff" font-size="22" font-weight="bold">01 · DATA</text><text y="211" fill="#c6d4e9" font-size="15">Rows / features</text></g>
+ <g transform="translate(390 285)"><path d="M-92 35L0-18L92 35L0 88Z" fill="#154a42" stroke="#65e3b6" stroke-width="2"/><path d="M-92 35V92L0 145V88Z" fill="#0d352f" stroke="#65e3b6"/><path d="M92 35V92L0 145V88Z" fill="#1b6a59" stroke="#65e3b6"/><g transform="translate(0 -6)"><path d="M-45-4L0-30L45-4L0 22Z" fill="url(#c2)"/><path d="M-45-4V22L0 48V22Z" fill="#16856d"/><path d="M45-4V22L0 48V22Z" fill="#31c39b"/></g><text y="184" fill="#9cf2d3" font-size="22" font-weight="bold">02 · PREP</text><text y="211" fill="#c6d4e9" font-size="15">Clean / transform</text></g>
+ <g transform="translate(600 285)"><path d="M-92 35L0-18L92 35L0 88Z" fill="#382866" stroke="#c0a4ff" stroke-width="2"/><path d="M-92 35V92L0 145V88Z" fill="#261c4c" stroke="#c0a4ff"/><path d="M92 35V92L0 145V88Z" fill="#563b99" stroke="#c0a4ff"/><g transform="translate(0 -27)"><path d="M-50 8L0-21L50 8L0 37Z" fill="url(#c3)"/><path d="M-50 8V42L0 71V37Z" fill="#7956c7"/><path d="M50 8V42L0 71V37Z" fill="#a486ef"/></g><text y="184" fill="#d4c1ff" font-size="22" font-weight="bold">03 · MODEL</text><text y="211" fill="#c6d4e9" font-size="15">Learn patterns</text></g>
+ <g transform="translate(810 285)"><path d="M-92 35L0-18L92 35L0 88Z" fill="#55401d" stroke="#ffd27a" stroke-width="2"/><path d="M-92 35V92L0 145V88Z" fill="#382b15" stroke="#ffd27a"/><path d="M92 35V92L0 145V88Z" fill="#805a20" stroke="#ffd27a"/><g stroke="#ffe4a6" stroke-width="9" stroke-linecap="round"><path d="M-38 5V30M-5-3V30M28-12V30"/></g><text y="184" fill="#ffe2a4" font-size="22" font-weight="bold">04 · EVALUATE</text><text y="211" fill="#c6d4e9" font-size="15">Metrics / errors</text></g>
+ <g transform="translate(1020 285)"><path d="M-92 35L0-18L92 35L0 88Z" fill="#53263f" stroke="#ff9caf" stroke-width="2"/><path d="M-92 35V92L0 145V88Z" fill="#3e1d32" stroke="#ff9caf"/><path d="M92 35V92L0 145V88Z" fill="#843d5c" stroke="#ff9caf"/><g transform="translate(0 -10)"><path d="M-40 12L0-11L40 12L0 35Z" fill="url(#c5)"/><path d="M-40 12V40L0 63V35Z" fill="#b94970"/><path d="M40 12V40L0 63V35Z" fill="#e97994"/></g><text y="184" fill="#ffc2cd" font-size="22" font-weight="bold">05 · PREDICT</text><text y="211" fill="#c6d4e9" font-size="15">New data / output</text></g>
+</g>
+<text x="600" y="570" text-anchor="middle" font-family="Arial" font-size="17" fill="#9db0d0">Each stage has a distinct role — do not mix training, validation, and test data.</text>
+</svg>
