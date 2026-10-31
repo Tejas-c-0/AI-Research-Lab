@@ -243,15 +243,17 @@ The visual below uses a distinct colour for each stage. The colours are a naviga
 
 ### Colour legend
 
-| Colour | Stage | What it represents |
-|---|---|---|
-| 🟦 **Cyan / blue** | **Data** | Raw observations, datasets, features, and inputs |
-| 🟩 **Emerald / green** | **Preparation** | Cleaning, validation, transformation, and preprocessing |
-| 🟪 **Violet / purple** | **Model** | Algorithms, learned parameters, and neural architectures |
-| 🟨 **Amber / gold** | **Evaluation** | Metrics, validation, error analysis, and evidence |
-| 🟥 **Coral / rose** | **Prediction** | Model outputs, inference, and application |
+<p align="center"><img src="assets/colour-legend.svg" alt="Five coloured cards: cyan for data, emerald for preparation, violet for model, amber for evaluation, coral for prediction" width="100%"></p>
 
-These are coloured emoji swatches, not plain black square glyphs. The same palette is used in the interactive 3D explorer. Text labels are retained for accessibility.
+| Stage | Meaning |
+|---|---|
+| **Cyan / blue** | Data, datasets, features, and inputs |
+| **Emerald / green** | Cleaning, validation, and preprocessing |
+| **Violet / purple** | Algorithms, models, and learned parameters |
+| **Amber / gold** | Metrics, evaluation, and error analysis |
+| **Coral / rose** | Predictions, inference, and outputs |
+
+The swatches above are drawn with actual SVG colour fills, not text symbols. The same palette is used in the interactive 3D explorer.
 
 ## 🔬 Research Workflow
 
@@ -474,6 +476,17 @@ Progress should reflect completed work, not planned work.
 
 Update this checklist only when the relevant work is genuinely completed and documented.
 
+## 🔄 Keeping the Learning Map in Sync
+
+When a new lesson or research note is added:
+
+1. Add the Markdown file to the **Existing learning notes** table in this README.
+2. Add it to [`LEARNING_PATH.md`](./LEARNING_PATH.md) in the correct concept order, not merely by upload date.
+3. Add a short purpose and a completion check so the reader knows what to learn before moving forward.
+4. Update the suggested repository structure if folders or assets change.
+5. Keep the research book blueprint separate; add a chapter only when the topic belongs in a research-methods handbook.
+
+The learning map should show the actual files in the repository. Planned lessons must be labelled as planned, not presented as completed work.
 ## 🤝 Working Principles
 
 - Learn concepts before relying on libraries.
