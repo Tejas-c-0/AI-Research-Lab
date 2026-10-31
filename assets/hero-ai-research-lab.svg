@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">AI Research Lab — from data to intelligence</title><desc id="desc">A premium dark isometric illustration of a glowing neural network, data cubes, and connected research nodes.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset=".55" stop-color="#111b36"/><stop offset="1" stop-color="#20113a"/></linearGradient>
+ <linearGradient id="cyan" x2="1" y2="1"><stop stop-color="#82f3ff"/><stop offset="1" stop-color="#178bbd"/></linearGradient>
+ <linearGradient id="violet" x2="1" y2="1"><stop stop-color="#d4b6ff"/><stop offset="1" stop-color="#7652e8"/></linearGradient>
+ <linearGradient id="amber" x2="1" y2="1"><stop stop-color="#ffe3a0"/><stop offset="1" stop-color="#d9822b"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1200" height="560" rx="30" fill="url(#bg)"/>
+<g opacity=".18" stroke="#7293c6" stroke-width="1"><path d="M0 420L600 75 1200 420M0 480L600 135 1200 480M0 540L600 195 1200 540"/><path d="M120 0L720 560M300 0L900 560M480 0L1080 560M660 0L1260 560"/></g>
+<ellipse cx="820" cy="390" rx="300" ry="95" fill="#6f42dc" opacity=".18" filter="url(#shadow)"/>
+<g stroke-linecap="round" fill="none" opacity=".72">
+ <path d="M610 250L760 150L900 235L1030 125M610 250L760 350L900 235L1040 365M760 150L900 235L1030 125M760 350L900 235L1040 365M610 250L900 235" stroke="#7d85ff" stroke-width="3"/>
+ <path d="M760 150L760 350M900 235L1040 365" stroke="#5dd7ed" stroke-width="2" stroke-dasharray="5 12"/>
+</g>
+<g filter="url(#glow)">
+ <circle cx="610" cy="250" r="18" fill="url(#cyan)"/><circle cx="760" cy="150" r="22" fill="url(#violet)"/><circle cx="760" cy="350" r="20" fill="url(#cyan)"/><circle cx="900" cy="235" r="27" fill="url(#violet)"/><circle cx="1030" cy="125" r="18" fill="url(#amber)"/><circle cx="1040" cy="365" r="20" fill="url(#amber)"/>
+</g>
+<g transform="translate(420 320)">
+ <ellipse cx="0" cy="122" rx="125" ry="30" fill="#35c6e8" opacity=".15" filter="url(#shadow)"/>
+ <path d="M-100 0L0-58L100 0L0 58Z" fill="#163d5d" stroke="#65e7ff" stroke-width="2"/>
+ <path d="M-100 0V100L0 158V58Z" fill="#0c2947" stroke="#3fc8e5" stroke-width="2"/>
+ <path d="M100 0V100L0 158V58Z" fill="#145477" stroke="#48d8f1" stroke-width="2"/>
+ <path d="M-68 15L0-24L68 15L0 54Z" fill="url(#cyan)" opacity=".85"/>
+ <path d="M-68 42V87L0 126V81Z" fill="#147ca2"/><path d="M68 42V87L0 126V81Z" fill="#1eb6cf"/>
+ <circle cx="0" cy="0" r="7" fill="#fff"/>
+</g>
+<g transform="translate(920 430)">
+ <path d="M-65 0L0-38L65 0L0 38Z" fill="#30205d" stroke="#b99aff" stroke-width="2"/>
+ <path d="M-65 0V70L0 108V38Z" fill="#26164f" stroke="#9a7bff" stroke-width="2"/>
+ <path d="M65 0V70L0 108V38Z" fill="#4e32a0" stroke="#b99aff" stroke-width="2"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" fill="#f7f8ff">
+ <text x="70" y="128" font-size="20" letter-spacing="6" fill="#7ddff5" font-weight="700">THE RESEARCH WORKSPACE</text>
+ <text x="70" y="205" font-size="60" font-weight="700">AI RESEARCH</text>
+ <text x="70" y="273" font-size="60" font-weight="700" fill="#a995ff">LAB</text>
+ <text x="73" y="325" font-size="21" fill="#b6c4db">Understand the data. Explore the model.</text>
+ <text x="73" y="356" font-size="21" fill="#b6c4db">Validate the evidence.</text>
+ <rect x="72" y="395" width="335" height="2" fill="#4cd9ee" opacity=".8"/>
+ <text x="73" y="435" font-size="15" letter-spacing="3" fill="#8fa4c8">LEARN  •  EXPERIMENT  •  DOCUMENT</text>
+</g>
+</svg>
