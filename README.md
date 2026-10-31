@@ -39,6 +39,35 @@
 
 ---
 
+## 🗺️ Your Research Learning Route
+
+This repository is designed to be studied in a deliberate order. Start with the research process, learn how to read papers, understand data, and only then move into machine-learning concepts needed for experiments.
+
+<p align="center">
+  <a href="./LEARNING_PATH.md"><img src="https://img.shields.io/badge/01-OPEN%20LEARNING%20PATH-19b8d5?style=for-the-badge&labelColor=101a2d" alt="Open learning path"></a>
+  <a href="./book/BOOK_BLUEPRINT.md"><img src="https://img.shields.io/badge/02-100%20PAGE%20RESEARCH%20BOOK-9876f5?style=for-the-badge&labelColor=101a2d" alt="Open book blueprint"></a>
+  <a href="./3d-explorer/"><img src="https://img.shields.io/badge/03-INTERACTIVE%203D-20b68b?style=for-the-badge&labelColor=101a2d" alt="Open interactive 3D explorer"></a>
+</p>
+
+### Existing learning notes
+
+| Order | Markdown note | What it teaches |
+|---:|---|---|
+| 01 | [AI Research Foundations](./AI%20Research%20Foundations.md) | Research problems, gaps, hypotheses, and experiments |
+| 02 | [Structure of a Research Paper](./Structure%20of%20a%20Research%20Paper.md) | The purpose and structure of each paper section |
+| 03 | [Reading and Analysing a Research Paper](./Reading%20and%20Analysing%20a%20Research%20Paper.md) | Analysing problem, objective, method, evidence, and limitations |
+| 04 | [Understanding Data and Model Evaluation](./Understanding%20Data%20and%20Model%20Evaluation.md) | Datasets, training/testing, metrics, and model behaviour |
+| 05 | [Types of Data, Features and Targets](./Types%20of%20Data%2C%20Features%20and%20Targets.md) | Numerical/categorical data, features, and target variables |
+| 06 | [Understanding Data Cleaning](./Understanding%20Data%20Cleaning.md) | Missing, duplicate, invalid, and inconsistent data |
+
+**[Open the full learning path →](./LEARNING_PATH.md)** — includes the study sequence, what to focus on, and completion checks.
+
+### The 100-page research book
+
+**[Machine Learning Research: From Question to Evidence](./book/BOOK_BLUEPRINT.md)**
+
+A planned, approximately 100-page beginner-friendly handbook focused on literature review, research questions, essential ML foundations, experimental design, evaluation, reproducibility, writing, peer review, and publication. It is not a general catalogue of algorithms.
+
 ## ✦ About the Lab
 
 **AI Research Lab** is a structured learning and experimentation workspace focused on understanding how intelligent systems are designed, trained, evaluated, and improved.
@@ -187,6 +216,23 @@ Use the foundations to build focused projects, document decisions, evaluate resu
 ---
 
 
+## 🧬 Interactive 3D Research Explorer
+
+<p align="center">
+  <a href="https://tejas-c-0.github.io/AI-Research-Lab/3d-explorer/">
+    <img src="assets/hero-ai-research-lab.svg" alt="Open the AI Research Lab interactive 3D explorer" width="100%">
+  </a>
+</p>
+
+**[Launch the interactive 3D explorer →](https://tejas-c-0.github.io/AI-Research-Lab/3d-explorer/)**
+
+The explorer has three live Three.js scenes:
+- **Neural network:** inspect input, hidden, and output nodes.
+- **Research pipeline:** explore data, preparation, model, evaluation, and prediction.
+- **Dataset:** inspect rows, columns, feature values, and target values.
+
+Drag to rotate, scroll or pinch to zoom, and select an object to read its explanation. This is a teaching visualisation, not a trained model or experiment result. See the [explorer source](./3d-explorer/index.html).
+
 ## 🌌 Visual Research Pipeline
 
 The visual below uses a distinct colour for each stage. The colours are a navigation aid: they identify the role of each stage, not a ranking or a quality score.
@@ -195,17 +241,17 @@ The visual below uses a distinct colour for each stage. The colours are a naviga
   <img src="assets/data-to-model-pipeline.svg" alt="Isometric data-to-model pipeline: data, preparation, model, evaluation, prediction" width="100%">
 </p>
 
-### Colour language
+### Colour legend
 
 | Colour | Stage | What it represents |
 |---|---|---|
-| <span style="color:#39c8e6">■ Cyan / blue</span> | Data | Raw observations, datasets, features, and inputs |
-| <span style="color:#55cba5">■ Emerald / green</span> | Preparation | Cleaning, validation, transformation, and preprocessing |
-| <span style="color:#a889f0">■ Violet / purple</span> | Model | Algorithms, learned parameters, and neural architectures |
-| <span style="color:#e4b45f">■ Amber / gold</span> | Evaluation | Metrics, validation, error analysis, and evidence |
-| <span style="color:#e47d9b">■ Coral / rose</span> | Prediction | Model outputs, inference, and application |
+| 🟦 **Cyan / blue** | **Data** | Raw observations, datasets, features, and inputs |
+| 🟩 **Emerald / green** | **Preparation** | Cleaning, validation, transformation, and preprocessing |
+| 🟪 **Violet / purple** | **Model** | Algorithms, learned parameters, and neural architectures |
+| 🟨 **Amber / gold** | **Evaluation** | Metrics, validation, error analysis, and evidence |
+| 🟥 **Coral / rose** | **Prediction** | Model outputs, inference, and application |
 
-Use this colour language consistently in diagrams, note covers, experiment reports, and project pages. Keep text contrast high and never rely on colour alone to communicate meaning; always include labels.
+These are coloured emoji swatches, not plain black square glyphs. The same palette is used in the interactive 3D explorer. Text labels are retained for accessibility.
 
 ## 🔬 Research Workflow
 
@@ -263,9 +309,9 @@ For every paper studied, record:
 
 **Reading rule:** Separate what the authors demonstrate from what you infer. A paper's claim is not automatically proof of general usefulness.
 
-## 🗂️ Repository Organisation
+## 🗂️ Suggested Future Organisation
 
-The repository will evolve as notes, experiments, and projects are added. A recommended structure is:
+The actual current files are listed in the learning route above. As the repository grows, it can evolve toward this organisation:
 
 ```text
 AI-Research-Lab/
@@ -309,6 +355,29 @@ AI-Research-Lab/
 ```
 
 This is a suggested organisation, not a claim that every directory or file has already been created.
+
+### Current repository structure
+
+```text
+AI-Research-Lab/
+├── README.md
+├── LEARNING_PATH.md
+├── AI Research Foundations.md
+├── Structure of a Research Paper.md
+├── Reading and Analysing a Research Paper.md
+├── Understanding Data and Model Evaluation.md
+├── Types of Data, Features and Targets.md
+├── Understanding Data Cleaning.md
+├── 3d-explorer/
+│   └── index.html
+├── book/
+│   └── BOOK_BLUEPRINT.md
+├── assets/
+│   ├── hero-ai-research-lab.svg
+│   ├── data-to-model-pipeline.svg
+│   └── neural-network-3d.svg
+└── .github/workflows/pages.yml
+```
 
 ## 📝 Learning Note Standard
 
