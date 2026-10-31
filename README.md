@@ -233,6 +233,17 @@ The explorer has three live Three.js scenes:
 
 Drag to rotate, scroll or pinch to zoom, and select an object to read its explanation. This is a teaching visualisation, not a trained model or experiment result. See the [explorer source](./3d-explorer/index.html).
 
+### One-time GitHub Pages setup
+
+The interactive source is committed, but the public live URL needs Pages enabled once:
+
+1. Open this repository's **Settings → Pages**.
+2. Under **Build and deployment → Source**, select **GitHub Actions**.
+3. Open **Actions → Deploy interactive 3D explorer to GitHub Pages** and rerun the latest workflow.
+4. When the workflow succeeds, use the Launch link above.
+
+The deployment workflow is [`.github/workflows/pages.yml`](./.github/workflows/pages.yml).
+
 ## 🌌 Visual Research Pipeline
 
 The visual below uses a distinct colour for each stage. The colours are a navigation aid: they identify the role of each stage, not a ranking or a quality score.
@@ -377,7 +388,8 @@ AI-Research-Lab/
 ├── assets/
 │   ├── hero-ai-research-lab.svg
 │   ├── data-to-model-pipeline.svg
-│   └── neural-network-3d.svg
+│   ├── neural-network-3d.svg
+│   └── colour-legend.svg
 └── .github/workflows/pages.yml
 ```
 
