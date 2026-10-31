@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">3D neural network concept</title><desc id="desc">Input, hidden, and output layers are shown as glowing nodes connected by weighted lines.</desc>
+<defs>
+ <linearGradient id="bg3" x2="1" y2="1"><stop stop-color="#091323"/><stop offset="1" stop-color="#21163d"/></linearGradient>
+ <linearGradient id="in" x2="1" y2="1"><stop stop-color="#9bf3ff"/><stop offset="1" stop-color="#168cb9"/></linearGradient>
+ <linearGradient id="hid" x2="1" y2="1"><stop stop-color="#e1c9ff"/><stop offset="1" stop-color="#7952df"/></linearGradient>
+ <linearGradient id="out" x2="1" y2="1"><stop stop-color="#ffe5a9"/><stop offset="1" stop-color="#d78b2c"/></linearGradient>
+ <filter id="gl3"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="660" rx="28" fill="url(#bg3)"/>
+<g opacity=".14" stroke="#90a4cc"><path d="M0 500L600 150L1200 500M0 570L600 220L1200 570M160 0L760 660M360 0L960 660M560 0L1160 660"/></g>
+<text x="600" y="64" text-anchor="middle" font-family="Arial" font-size="29" font-weight="700" letter-spacing="2" fill="#f4f6ff">A NEURAL NETWORK — CONCEPTUAL VIEW</text>
+<g stroke-width="2" opacity=".55" fill="none">
+ <g stroke="#5dd8ee"><path d="M210 210L480 150M210 210L480 270M210 210L480 390M210 330L480 150M210 330L480 270M210 330L480 390M210 450L480 150M210 450L480 270M210 450L480 390"/></g>
+ <g stroke="#aa8cff"><path d="M480 150L760 210M480 150L760 330M480 150L760 450M480 270L760 210M480 270L760 330M480 270L760 450M480 390L760 210M480 390L760 330M480 390L760 450"/></g>
+ <g stroke="#ffd27c"><path d="M760 210L1000 270M760 330L1000 270M760 450L1000 270"/></g>
+</g>
+<g filter="url(#gl3)">
+ <g fill="url(#in)" stroke="#c4faff" stroke-width="2"><circle cx="210" cy="210" r="26"/><circle cx="210" cy="330" r="26"/><circle cx="210" cy="450" r="26"/></g>
+ <g fill="url(#hid)" stroke="#e6d7ff" stroke-width="2"><circle cx="480" cy="150" r="28"/><circle cx="480" cy="270" r="28"/><circle cx="480" cy="390" r="28"/><circle cx="480" cy="510" r="28"/><circle cx="760" cy="210" r="28"/><circle cx="760" cy="330" r="28"/><circle cx="760" cy="450" r="28"/></g>
+ <g fill="url(#out)" stroke="#fff0c9" stroke-width="2"><circle cx="1000" cy="270" r="32"/></g>
+</g>
+<g font-family="Arial" text-anchor="middle">
+ <text x="210" y="535" fill="#9beefe" font-size="22" font-weight="bold">INPUT LAYER</text><text x="210" y="565" fill="#bdcce1" font-size="16">Input features</text>
+ <text x="620" y="585" fill="#d8c5ff" font-size="22" font-weight="bold">HIDDEN LAYERS</text><text x="620" y="612" fill="#bdcce1" font-size="16">Learn combinations of patterns</text>
+ <text x="1000" y="355" fill="#ffe1a0" font-size="22" font-weight="bold">OUTPUT</text><text x="1000" y="382" fill="#bdcce1" font-size="16">Prediction</text>
+</g>
+<g font-family="Arial" fill="#c9d4e8" font-size="16">
+ <text x="65" y="130">Example features</text><text x="65" y="154" fill="#91dff1">area · rooms · location</text>
+ <text x="880" y="125">Learned weights</text><text x="880" y="149">combine information</text>
+</g>
+<text x="600" y="642" text-anchor="middle" font-family="Arial" font-size="15" fill="#91a4c5">Concept illustration only — not a specific trained architecture or measured result.</text>
+</svg>
