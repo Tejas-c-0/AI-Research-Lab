@@ -28,6 +28,15 @@
 
 </div>
 
+
+<p align="center">
+  <img src="assets/hero-ai-research-lab.svg" alt="AI Research Lab — data, neural connections, and research" width="100%">
+</p>
+
+<p align="center">
+  <strong>Explore the visual system:</strong> data → preparation → models → evaluation → prediction
+</p>
+
 ---
 
 ## ✦ About the Lab
@@ -135,6 +144,23 @@ Introduced after the foundations:
 - Data leakage
 - Error analysis and model limitations
 
+
+## 🧠 Neural Network — Visual Concept
+
+A neural network can be understood as connected layers that transform input information into an output. Each connection has a learned weight; the network adjusts these weights during training to reduce its prediction error.
+
+<p align="center">
+  <img src="assets/neural-network-3d.svg" alt="3D-style conceptual neural network with input, hidden, and output layers" width="100%">
+</p>
+
+| Layer | Role |
+|---|---|
+| Input layer | Receives the features supplied to the model |
+| Hidden layers | Transform information and learn useful patterns |
+| Output layer | Produces the model's prediction |
+
+<sub>Illustrative concept diagram. It does not represent a trained model, specific architecture, or measured result.</sub>
+
 ### 08 — Deep Learning
 
 - Neural network fundamentals
@@ -159,6 +185,27 @@ Introduced after the foundations:
 Use the foundations to build focused projects, document decisions, evaluate results, and communicate what was learned.
 
 ---
+
+
+## 🌌 Visual Research Pipeline
+
+The visual below uses a distinct colour for each stage. The colours are a navigation aid: they identify the role of each stage, not a ranking or a quality score.
+
+<p align="center">
+  <img src="assets/data-to-model-pipeline.svg" alt="Isometric data-to-model pipeline: data, preparation, model, evaluation, prediction" width="100%">
+</p>
+
+### Colour language
+
+| Colour | Stage | What it represents |
+|---|---|---|
+| <span style="color:#39c8e6">■ Cyan / blue</span> | Data | Raw observations, datasets, features, and inputs |
+| <span style="color:#55cba5">■ Emerald / green</span> | Preparation | Cleaning, validation, transformation, and preprocessing |
+| <span style="color:#a889f0">■ Violet / purple</span> | Model | Algorithms, learned parameters, and neural architectures |
+| <span style="color:#e4b45f">■ Amber / gold</span> | Evaluation | Metrics, validation, error analysis, and evidence |
+| <span style="color:#e47d9b">■ Coral / rose</span> | Prediction | Model outputs, inference, and application |
+
+Use this colour language consistently in diagrams, note covers, experiment reports, and project pages. Keep text contrast high and never rely on colour alone to communicate meaning; always include labels.
 
 ## 🔬 Research Workflow
 
