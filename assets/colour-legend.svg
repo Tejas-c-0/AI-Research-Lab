@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+<title id="title">AI Research Lab colour legend</title>
+<desc id="desc">Five colour cards: cyan for data, green for preparation, violet for models, amber for evaluation, coral for predictions.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1425"/><stop offset="1" stop-color="#18243d"/></linearGradient>
+ <linearGradient id="a" x2="0" y2="1"><stop stop-color="#46e5ff"/><stop offset="1" stop-color="#148dbb"/></linearGradient>
+ <linearGradient id="b" x2="0" y2="1"><stop stop-color="#65f1c2"/><stop offset="1" stop-color="#159b77"/></linearGradient>
+ <linearGradient id="c" x2="0" y2="1"><stop stop-color="#d2b9ff"/><stop offset="1" stop-color="#805ce6"/></linearGradient>
+ <linearGradient id="d" x2="0" y2="1"><stop stop-color="#ffe4a6"/><stop offset="1" stop-color="#d58a2e"/></linearGradient>
+ <linearGradient id="e" x2="0" y2="1"><stop stop-color="#ffb4c7"/><stop offset="1" stop-color="#d45b80"/></linearGradient>
+</defs>
+<rect width="1200" height="250" rx="24" fill="url(#bg)"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <text x="35" y="43" font-size="15" letter-spacing="3" font-weight="bold" fill="#93a9ce">AI RESEARCH LAB · COLOUR SYSTEM</text>
+ <g transform="translate(30 68)">
+  <rect width="215" height="145" rx="16" fill="#13253a" stroke="#2f6783"/><rect x="16" y="16" width="183" height="8" rx="4" fill="url(#a)"/><circle cx="38" cy="62" r="13" fill="url(#a)"/><text x="62" y="68" font-size="21" font-weight="bold" fill="#b9f7ff">DATA</text><text x="18" y="108" font-size="14" fill="#c1d0e5">Records · features · inputs</text>
+ </g>
+ <g transform="translate(265 68)">
+  <rect width="215" height="145" rx="16" fill="#132b2a" stroke="#347d68"/><rect x="16" y="16" width="183" height="8" rx="4" fill="url(#b)"/><circle cx="38" cy="62" r="13" fill="url(#b)"/><text x="62" y="68" font-size="21" font-weight="bold" fill="#b8ffe6">PREPARE</text><text x="18" y="108" font-size="14" fill="#c1d0e5">Clean · validate · transform</text>
+ </g>
+ <g transform="translate(500 68)">
+  <rect width="215" height="145" rx="16" fill="#211d3d" stroke="#6d5ca8"/><rect x="16" y="16" width="183" height="8" rx="4" fill="url(#c)"/><circle cx="38" cy="62" r="13" fill="url(#c)"/><text x="62" y="68" font-size="21" font-weight="bold" fill="#e0d2ff">MODEL</text><text x="18" y="108" font-size="14" fill="#c1d0e5">Methods · learned weights</text>
+ </g>
+ <g transform="translate(735 68)">
+  <rect width="215" height="145" rx="16" fill="#302719" stroke="#90703e"/><rect x="16" y="16" width="183" height="8" rx="4" fill="url(#d)"/><circle cx="38" cy="62" r="13" fill="url(#d)"/><text x="62" y="68" font-size="21" font-weight="bold" fill="#ffe7b6">EVALUATE</text><text x="18" y="108" font-size="14" fill="#d7cbb5">Metrics · errors · evidence</text>
+ </g>
+ <g transform="translate(970 68)">
+  <rect width="200" height="145" rx="16" fill="#321e31" stroke="#92516e"/><rect x="16" y="16" width="168" height="8" rx="4" fill="url(#e)"/><circle cx="38" cy="62" r="13" fill="url(#e)"/><text x="62" y="68" font-size="21" font-weight="bold" fill="#ffd1dd">PREDICT</text><text x="18" y="108" font-size="14" fill="#dec5d0">Inference · outputs</text>
+ </g>
+</g>
+</svg>
