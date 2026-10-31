@@ -381,6 +381,9 @@ AI-Research-Lab/
 ├── Understanding Data and Model Evaluation.md
 ├── Types of Data, Features and Targets.md
 ├── Understanding Data Cleaning.md
+├── 01_data_problems.svg
+├── 02_cleaning_workflow.svg
+├── 03_before_after.svg
 ├── 3d-explorer/
 │   └── index.html
 ├── book/
@@ -389,7 +392,8 @@ AI-Research-Lab/
 │   ├── hero-ai-research-lab.svg
 │   ├── data-to-model-pipeline.svg
 │   ├── neural-network-3d.svg
-│   └── colour-legend.svg
+│   ├── colour-legend.svg
+│   └── research_pipeline.svg
 └── .github/workflows/pages.yml
 ```
 
